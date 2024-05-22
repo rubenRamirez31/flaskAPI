@@ -1,12 +1,4 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "Hello, World!"
-
-""" from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
@@ -60,6 +52,6 @@ def predict():
 
     except Exception as e:
         return jsonify({'error': str(e)})
-"""
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080) 
+    app.run(host='0.0.0.0', port=8080)
