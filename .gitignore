@@ -1,0 +1,12 @@
+# Archivos y directorios generados automáticamente
+__pycache__/
+*.pyc
+
+# Directorios específicos del entorno virtual
+venv/
+env/
+Include/
+Lib/
+
+# Archivos de configuración del entorno virtual
+pyvenv.cfg
